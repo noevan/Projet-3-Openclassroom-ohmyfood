@@ -194,7 +194,7 @@ footer ul .fa-hands-helping {
 }
 @media screen and (min-width: 768px) {
   .card {
-    width: 45%;
+    width: 4%;
   }
 }
 
@@ -613,7 +613,7 @@ footer ul .fa-hands-helping {
 }
 .operation__steps li p {
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 75px;
 }
 .operation__steps li:hover {
   background: #f2eafb;
@@ -635,3 +635,26 @@ footer ul .fa-hands-helping {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width:  765px){
+  .operation__steps li {
+  width: 80%;
+}
+
+.operation__steps li p{
+  margin-left: 30px;
+}
+
+.card{
+  width: 90%;
+}
+}
+
+@media screen and (min-width:  767px) {
+  .operation__steps li p{
+    margin-left: 30px;
+  }
+  .card{
+    width: 40%;
+  }
+}
